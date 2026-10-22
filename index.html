@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f7f2">
+  <meta name="description" content="Discover R.R.S International School, serving learners from Nursery to Class 10. Explore school life, learning and admissions enquiries.">
+  <title>R.R.S International School | Learn with purpose</title>
+  <link rel="icon" type="image/png" href="optimized-assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script>try{if(localStorage.getItem('rrs-theme')==='dark')document.documentElement.dataset.theme='dark'}catch{}</script>
+  <script>try{if(!sessionStorage.getItem('rrs-intro-seen')&&!matchMedia('(prefers-reduced-motion: reduce)').matches)document.documentElement.classList.add('intro-pending')}catch{}</script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="site-enhancements.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <aside class="network-state" id="network-state" aria-labelledby="network-title" hidden>
+    <svg class="network-illustration" viewBox="0 0 56 40" aria-hidden="true"><path class="network-link network-link-left" d="M11 20h12m10 0h12M17 9l9 8m13-8-9 8M17 31l9-8m13 8-9-8"/><circle cx="8" cy="20" r="4"/><circle cx="28" cy="20" r="5"/><circle cx="48" cy="20" r="4"/><circle cx="14" cy="7" r="3"/><circle cx="42" cy="7" r="3"/><circle cx="14" cy="33" r="3"/><circle cx="42" cy="33" r="3"/></svg>
+    <span class="network-copy" role="status" aria-live="polite" aria-atomic="true"><strong id="network-title">Connection interrupted</strong><span id="network-message">Check your connection, then try again.</span></span>
+    <button class="network-retry" id="network-retry" type="button">Retry connection</button>
+  </aside>
+  <dialog class="logo-intro" id="logo-intro" aria-labelledby="logo-intro-title">
+    <img class="logo-intro-crest" id="logo-intro-crest" src="optimized-assets/logo.png" alt="" width="160" height="160" fetchpriority="high" decoding="sync">
+    <div class="logo-intro-copy"><p class="logo-intro-kicker">LEARNING BEGINS WITH BELONGING</p><h1 id="logo-intro-title">R.R.S</h1><p class="logo-intro-school">INTERNATIONAL SCHOOL</p><p class="logo-intro-prompt">Scroll to discover <span aria-hidden="true">↓</span></p><button class="logo-intro-enter" id="logo-intro-enter" type="button">Enter website</button></div>
+  </dialog>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="cursor-dot" aria-hidden="true"></div><div class="cursor-ring" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <div class="topline"><span>R.R.S International School</span><span>Learning begins with belonging.</span></div>
+    <nav class="nav-wrap" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="R.R.S International School home"><img src="optimized-assets/logo.png" alt="R.R.S International School crest" width="46" height="46" loading="eager" decoding="sync" fetchpriority="high"><span>R.R.S <small>INTERNATIONAL SCHOOL</small></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span><span class="sr-only">Toggle navigation</span></button>
+      <div class="nav-links" id="primary-nav">
+        <a href="#about">Our school</a><a href="#school-moments">Campus</a><a href="#learning">Learning</a><a href="#life">School life</a><a href="#admissions">Admissions</a><a href="#contact">Contact</a>
+        <a class="nav-portal" href="#admissions">Enquire <span aria-hidden="true">↗</span></a>
+      </div>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false" title="Switch to dark theme">
+        <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+          <g class="theme-toggle-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.7">
+            <circle cx="16" cy="16" r="5.1" fill="currentColor" stroke="none"/>
+            <path d="M16 2.8v3M16 26.2v3M2.8 16h3m20.4 0h3M6.65 6.65l2.12 2.12m14.46 14.46 2.12 2.12m0-18.7-2.12 2.12M8.77 23.23l-2.12 2.12"/>
+          </g>
+          <path class="theme-toggle-moon" d="M20.8 3.9a12.5 12.5 0 1 0 7.3 22.65A13.1 13.1 0 0 1 20.8 3.9Z"/>
+        </svg>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow hero-reveal"><span class="eyebrow-line"></span> A school for curious minds</p>
+        <h1 id="hero-title" class="hero-reveal">Every child has the potential to shine.<br><em>We provide the roots to grow and the wings to soar.</em></h1>
+        <p class="hero-intro hero-reveal">Welcome to R.R.S International School, supporting learners from Nursery to Class 10 on their journey of discovery.</p>
+        <div class="hero-actions hero-reveal"><a class="button button-light" href="#contact">Admission enquiry <span aria-hidden="true">↗</span></a><div class="music-player" id="music-player">
+          <button class="button music-toggle" id="music-toggle" type="button" aria-label="Starting school music" aria-pressed="false" aria-expanded="false" aria-controls="school-music music-details">
+            <span class="music-icon" aria-hidden="true"><svg class="music-icon-play" viewBox="0 0 20 20"><path d="M6 3.8c0-.8.9-1.3 1.6-.9l9 5.2a1 1 0 0 1 0 1.8l-9 5.2a1.05 1.05 0 0 1-1.6-.9Z" fill="currentColor"/></svg><svg class="music-icon-pause" viewBox="0 0 20 20"><path d="M5 4h3.5v12H5zm6.5 0H15v12h-3.5z" fill="currentColor"/></svg></span>
+            <span class="music-label sr-only">Starting school music…</span>
+          </button>
+          <div class="music-details" id="music-details" aria-label="School music controls">
+            <div class="music-meta"><span>R.R.S SCHOOL MUSIC</span><button class="music-collapse" id="music-collapse" type="button" aria-label="Collapse music controls">−</button></div>
+            <div class="music-timeline"><time class="music-current">0:00</time><input id="music-seek" type="range" min="0" max="100" value="0" step="0.1" aria-label="Seek through school music" disabled><time class="music-duration">0:00</time></div>
+          </div>
+        </div></div><audio id="school-music" src="assests/music.mp3" autoplay muted preload="none" loop></audio>
+        <div class="hero-note hero-reveal glass-panel"><span class="note-mark">R</span><span>R.R.S International School<br><strong>From Nursery to Class 10</strong></span></div>
+      </div>
+      <div class="hero-visual"><div class="hero-photo-frame"><img class="hero-photo" src="optimized-assets/campus-hero.webp" alt="Front view of the R.R.S International School campus" fetchpriority="high"><span class="image-index">01 <i>/</i> SCHOOL</span></div><div class="hero-stamp" aria-hidden="true"><span>GROW</span><span class="stamp-star">✳</span><span>TOGETHER</span></div><div class="school-sticker sticker-kids" aria-hidden="true"><svg viewBox="0 0 160 112" focusable="false"><path class="sticker-cloud" d="M21 94Q9 91 12 79q1-10 12-12Q20 52 35 48q13-4 20 8 9-17 26-11 12 4 13 17 15-5 21 7 14-2 18 11 4 14-10 19Z"/><path d="M25 91q44 8 103 0" fill="none" stroke="#315446" stroke-width="3" stroke-linecap="round"/><g stroke="#fffefa" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"><circle cx="55" cy="39" r="12" fill="#f1c19d"/><path d="M44 36q1-17 15-14 9 2 9 13l-8-4-6 5Z" fill="#513d36"/><path d="m47 55-4 24 20 1 2-23Z" fill="#ef8c77"/><path d="m46 61-12 15m27-14 10 13M49 80l-6 13m16-13 7 12" fill="none" stroke="#315446" stroke-width="6"/><path d="m38 58-7 4 4 19 8-3Z" fill="#e2c85f" stroke-width="3"/><circle cx="103" cy="42" r="11" fill="#d99c76"/><path d="M93 39q1-15 12-14 10 2 10 15l-7-5-7 3Z" fill="#303b43"/><path d="m95 57-3 22 21 1 1-24Z" fill="#5a9ec7"/><path d="m94 62-12 12m30-12 9 14m-25 5-6 13m22-13 6 12" fill="none" stroke="#315446" stroke-width="6"/><path d="m87 58-8 4 2 18 8-2Z" fill="#a6be53" stroke-width="3"/></g><path d="m132 31 3 7 7 3-7 3-3 7-3-7-7-3 7-3Z" fill="#f0bf4f" stroke="#fffefa" stroke-width="3"/></svg></div></div>
+      <a class="scroll-cue" href="#about"><span>SCROLL TO EXPLORE</span><i aria-hidden="true"></i></a>
+    </section>
+
+    <section class="broll section-pad" id="school-moments" aria-labelledby="broll-title">
+      <div class="section-label reveal"><span>IN MOTION</span> LITTLE MOMENTS OF LEARNING</div>
+      <div class="broll-heading reveal"><div><p class="eyebrow">A glimpse beyond the classroom</p><h2 id="broll-title">Curiosity in <em>every moment.</em></h2></div><p>Short stock-film previews from Pexels add a little movement alongside our school photos.</p></div>
+      <div class="broll-grid">
+        <article class="broll-card reveal glass-panel"><div class="broll-frame"><img src="https://images.pexels.com/videos/5198170/pexels-photo-5198170.jpeg?auto=compress&amp;dpr=1&amp;h=750&amp;w=1260" alt="Stock film preview of children learning in a classroom" loading="lazy" decoding="async"><button class="broll-play" type="button" data-video-src="https://videos.pexels.com/video-files/5198170/5198170-uhd_3840_2160_25fps.mp4" aria-label="Play classroom learning film">Play film <span aria-hidden="true">▶</span></button></div><div class="broll-caption"><h3>Learning together</h3><a href="https://www.pexels.com/video/children-in-the-classroom-5198170/" target="_blank" rel="noopener noreferrer">Film by Max Fischer · Pexels ↗</a></div></article>
+        <article class="broll-card reveal glass-panel"><div class="broll-frame"><img src="https://images.pexels.com/videos/8466945/pexels-photo-8466945.jpeg?auto=compress&amp;dpr=1&amp;h=750&amp;w=1260" alt="Stock film preview of children creating artwork at school" loading="lazy" decoding="async"><button class="broll-play" type="button" data-video-src="https://videos.pexels.com/video-files/8466945/8466945-uhd_3840_2160_25fps.mp4" aria-label="Play school art activity film">Play film <span aria-hidden="true">▶</span></button></div><div class="broll-caption"><h3>Ideas take shape</h3><a href="https://www.pexels.com/video/kids-doing-artworks-in-school-8466945/" target="_blank" rel="noopener noreferrer">Film by Anastasia Shuraeva · Pexels ↗</a></div></article>
+      </div>
+      <p class="broll-note">These Pexels stock videos are illustrative, not R.R.S. footage, and load only when you choose Play.</p>
+      <div class="broll-school reveal" aria-labelledby="school-pictures-title">
+        <div class="broll-school-heading"><div><p class="eyebrow">A real view of R.R.S</p><h3 id="school-pictures-title">Our school in <em>pictures.</em></h3></div><p>See the school building and grounds in one view.</p></div>
+        <div class="broll-school-frame">
+          <figure><img src="optimized-assets/school-building.webp" alt="R.R.S International School building with the school name visible" width="883" height="788" loading="lazy" decoding="async"><figcaption>R.R.S International School building</figcaption></figure>
+          <figure><img src="optimized-assets/school-playground.webp" alt="Open green grounds at R.R.S International School" width="883" height="788" loading="lazy" decoding="async"><figcaption>Our school grounds</figcaption></figure>
+        </div>
+        <blockquote class="school-quote"><span aria-hidden="true">“</span><p>Learn. Grow. Succeed.</p><cite>Words displayed on our school building</cite></blockquote>
+      </div>
+    </section>
+    <section class="intro section-pad" id="about" aria-labelledby="about-title">
+      <div class="section-label reveal"><span>01</span> OUR SCHOOL</div>
+      <div class="intro-grid">
+        <div class="intro-heading reveal"><p class="eyebrow">Rooted in care. Open to possibility.</p><h2 id="about-title">A place to learn,<br><em>grow and belong.</em></h2></div>
+        <div class="intro-body reveal"><p class="large-copy">A school day is made of little moments: a new question, a shared idea, a first try. At R.R.S International School, we want every learner to feel welcomed to take part in them.</p><p>Our school serves children from Nursery to Class 10. Explore a glimpse of our campus and school community, and get in touch to learn more about admissions.</p><a class="under-link" href="#life">See school life <span>↗</span></a></div>
+      </div>
+      <div class="about-photos"><figure class="about-image about-image-wide reveal"><img src="optimized-assets/about-community.webp" alt="Students and staff gathered outside the school building" loading="lazy" decoding="async"><figcaption>Our school community</figcaption></figure><div class="about-caption reveal"><span class="caption-symbol" aria-hidden="true"><svg viewBox="0 0 40 36"><path d="M5 8h11q4 0 4 4v18H9q-4 0-4-4Z" fill="#fffefa" stroke="#315446" stroke-width="2"/><path d="M20 12q0-4 4-4h11v18q0 4-4 4H20Z" fill="#8dc4d4" stroke="#315446" stroke-width="2"/><path d="M9 13h7m-7 5h7m8 0h7m-7 5h7" stroke="#ef8c77" stroke-width="2" stroke-linecap="round"/><path d="m30 2 2 4 4 2-4 2-2 4-2-4-4-2 4-2Z" fill="#ef8c77"/></svg></span><p>Room to ask.<br>Room to become.</p></div></div>
+      <div class="school-pillars" aria-label="Our vision and mission">
+        <article class="pillar-card reveal glass-panel"><span>OUR VISION</span><h3>Every learner has a story.</h3><p>Let yours begin here.</p></article>
+        <article class="pillar-card reveal glass-panel"><span>OUR MISSION</span><h3>Learning starts with care.</h3><p>When children feel seen and encouraged, they can bring their curiosity into the classroom and beyond.</p></article>
+      </div>
+    </section>
+
+    <section class="learning section-pad" id="learning" aria-labelledby="learning-title">
+      <div class="section-label reveal"><span>02</span> THE LEARNING JOURNEY</div>
+      <div class="learning-head reveal"><div><p class="eyebrow">From first discoveries to new horizons</p><h2 id="learning-title">Growing at every<br><em>stage.</em></h2></div><div class="learning-side"><p class="learning-desc">A learning journey from Nursery through Class 10, with room to explore, practice and find your next question.</p><span class="school-sticker sticker-pencil" aria-hidden="true"><svg viewBox="0 0 90 90" focusable="false"><path d="m23 61 34-38q5-5 10 0l4 4q5 5 0 10L37 75l-18 5Z" fill="#f2bd4b" stroke="#315446" stroke-width="3" stroke-linejoin="round"/><path d="m23 61 14 14m20-52 14 14M19 80l7-17" fill="none" stroke="#315446" stroke-width="3" stroke-linecap="round"/><path d="m58 25 14 14" stroke="#fffefa" stroke-width="4"/><path d="m66 13 2 5 5 2-5 2-2 5-2-5-5-2 5-2Z" fill="#ef8c77"/></svg></span></div></div>
+      <div class="stage-list">
+        <article class="stage-card reveal glass-panel"><span class="stage-no">01</span><div><h3>Early years</h3><p>Nursery · LKG · UKG</p></div></article>
+        <article class="stage-card reveal glass-panel"><span class="stage-no">02</span><div><h3>Primary years</h3><p>Class 1 · Class 2 · Class 3 · Class 4 · Class 5</p></div></article>
+        <article class="stage-card reveal glass-panel"><span class="stage-no">03</span><div><h3>Middle &amp; secondary</h3><p>Class 6 · Class 7 · Class 8 · Class 9 · Class 10</p></div></article>
+      </div>
+      <div class="learning-foot"><span>One community, many ways to grow.</span><a class="under-link" href="#admissions">Ask us about learning <span>↗</span></a></div>
+    </section>
+
+    <section class="message section-pad" aria-labelledby="message-title">
+      <div class="message-image reveal"><img src="optimized-assets/school-message.webp" alt="A school team member standing with a student" loading="lazy" decoding="async"><span class="photo-note">A moment at R.R.S</span></div>
+      <div class="message-copy reveal"><div class="section-label"><span>03</span> A NOTE FROM SCHOOL</div><span class="quote-mark" aria-hidden="true">“</span><h2 id="message-title">The best learning<br>starts with <em>care.</em></h2><p>When children feel seen and encouraged, they can bring their curiosity into the classroom and beyond. We welcome families to visit, ask questions and get to know our school.</p><a class="under-link" href="#contact">Get in touch <span>↗</span></a><span class="message-signoff">R.R.S International School</span></div>
+    </section>
+
+    <section class="teacher-voices section-pad" aria-labelledby="teacher-voices-title">
+      <div class="teacher-voices-heading reveal"><div class="section-label"><span>04</span> A THOUGHT FOR LEARNING</div><p class="eyebrow">Words that guide the classroom</p><h2 id="teacher-voices-title">A little encouragement<br><em>goes a long way.</em></h2></div>
+      <div class="teacher-voices-grid">
+        <article class="teacher-voice reveal" style="--reveal-delay:0ms"><div class="teacher-voice-photo"><img src="optimized-assets/teachers-men.webp" alt="Male teachers of R.R.S International School gathered together" loading="lazy" decoding="async" width="1100" height="825"></div><div class="teacher-voice-copy"><span>OUR TEACHERS</span><blockquote>“A great teacher sees potential in every child—and gives it room to grow.”</blockquote><p>With appreciation for our teaching team</p></div></article>
+        <article class="teacher-voice reveal" style="--reveal-delay:100ms"><div class="teacher-voice-photo"><img src="optimized-assets/teachers-women.webp" alt="Female teachers of R.R.S International School gathered together" loading="lazy" decoding="async" width="1100" height="825"></div><div class="teacher-voice-copy"><span>OUR TEACHERS</span><blockquote>“When a learner feels understood, curiosity can grow into confidence.”</blockquote><p>With appreciation for our teaching team</p></div></article>
+      </div>
+    </section>
+
+    <section class="school-life section-pad" id="life" aria-labelledby="life-title">
+      <div class="section-label reveal"><span>05</span> AROUND OUR SCHOOL</div>
+      <div class="life-heading reveal"><div><p class="eyebrow">Real moments, shared together</p><h2 id="life-title">The days that make<br><em>school life.</em></h2></div><p>Take a look at moments from the school community. Select a photo to see it up close.</p></div>
+      <div class="gallery-grid">
+        <button class="gallery-item reveal" type="button" data-full="optimized-assets/gallery-gathering.webp" data-caption="Students taking part in a school gathering"><img src="optimized-assets/gallery-gathering.webp" alt="Students standing together during a school gathering" loading="lazy" decoding="async"><span class="gallery-open" aria-hidden="true">↗</span><span class="gallery-caption">Together, each morning</span></button>
+        <button class="gallery-item reveal" type="button" data-full="optimized-assets/gallery-celebration.webp" data-caption="A colourful school celebration"><img src="optimized-assets/gallery-celebration.webp" alt="Students at a colourful school celebration" loading="lazy" decoding="async"><span class="gallery-open" aria-hidden="true">↗</span><span class="gallery-caption">Celebrating together</span></button>
+        <button class="gallery-item reveal" type="button" data-full="optimized-assets/gallery-community.webp" data-caption="Students and school team outdoors"><img src="optimized-assets/gallery-community.webp" alt="Students and members of the school team outdoors" loading="lazy" decoding="async"><span class="gallery-open" aria-hidden="true">↗</span><span class="gallery-caption">Out in the school community</span></button>
+        <button class="gallery-item reveal" type="button" data-full="optimized-assets/gallery-stage.webp" data-caption="A school programme on stage"><img src="optimized-assets/gallery-stage.webp" alt="Students taking part in a school programme on stage" loading="lazy" decoding="async"><span class="gallery-open" aria-hidden="true">↗</span><span class="gallery-caption">A moment on stage</span></button>
+        <button class="gallery-item reveal" type="button" data-full="optimized-assets/classroom-meeting.webp" data-caption="Students and teachers gathered for a classroom discussion"><img src="optimized-assets/classroom-meeting.webp" alt="Students and teachers gathered for a classroom discussion" width="1400" height="788" loading="lazy" decoding="async"><span class="gallery-open" aria-hidden="true">↗</span><span class="gallery-caption">Learning together</span></button>
+        <button class="gallery-item reveal" type="button" data-full="optimized-assets/school-meeting.webp" data-caption="Students and teachers meeting in a decorated classroom"><img src="optimized-assets/school-meeting.webp" alt="Students and teachers meeting in a decorated classroom" width="1400" height="788" loading="lazy" decoding="async"><span class="gallery-open" aria-hidden="true">↗</span><span class="gallery-caption">A school community gathering</span></button>
+      </div>
+      <div class="gallery-bottom"><span>Photographs from R.R.S International School</span><span>01 — 06</span></div>
+    </section>
+
+    <section class="faq section-pad" id="faq" aria-labelledby="faq-title">
+      <div class="faq-intro reveal"><div class="section-label">QUICK ANSWERS</div><p class="eyebrow">A little more information</p><h2 id="faq-title">Frequently asked<br><em>questions.</em></h2><p>Need something else? Contact the school and the team can help.</p><a class="under-link" href="#contact">Send an enquiry <span>↗</span></a></div>
+      <div class="faq-list reveal glass-panel">
+        <details><summary>Which classes does the school serve?</summary><p>The school serves Nursery, LKG, UKG, and each class from Class 1 through Class 10.</p></details>
+        <details><summary>Where is R.R.S International School?</summary><p>R.R.S International School is at Bhurwaan More, Kudra, Kaimur. Use the map below for directions.</p></details>
+        <details><summary>How can I ask about admission?</summary><p>Submit the enquiry form with the student’s name, guardian mobile number, email address, class of interest and your question.</p></details>
+        <details><summary>How can I call the school?</summary><p>Call <a href="tel:+919123470121">+91 91234 70121</a>.</p></details>
+        <details><summary>Where can I learn about facilities and school updates?</summary><p>Please contact the school directly for current facilities information and verified updates.</p></details>
+      </div>
+    </section>
+
+    <section class="admissions section-pad" id="admissions" aria-labelledby="admissions-title">
+      <div class="admissions-copy reveal"><div class="section-label"><span>06</span> ADMISSIONS</div><p class="eyebrow">Come say hello</p><h2 id="admissions-title">Let’s start a<br><em>conversation.</em></h2><p>Looking for a school for your child? Send an enquiry and our team can help you understand the next steps.</p><a class="button button-dark" href="#contact">Make an enquiry <span aria-hidden="true">↗</span></a><p class="small-note">Admissions information is shared directly by the school.</p></div>
+    </section>
+
+    <section class="location section-pad" id="location" aria-labelledby="location-title">
+      <div class="location-head reveal glass-panel">
+        <div><p class="eyebrow">Come visit our campus</p><h2 id="location-title">Find Our <em>School</em></h2></div>
+        <div class="location-details"><p>R.R.S International School,<br>Bhurwaan More, Kudra, Kaimur</p><a class="button button-dark" href="https://www.google.com/maps/dir/?api=1&amp;destination=25.0987397%2C83.79076300000001" target="_blank" rel="noopener noreferrer">Get Directions <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="location-map reveal"><iframe title="Map showing R.R.S. International School, Bhurwaan More, Kudra, Kaimur" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.0922121624862!2d83.79076300000001!3d25.0987397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398dc3a01e198f79%3A0x495a936a41a84e62!2sR.R.S.%20International%20School!5e0!3m2!1sen!2sin!4v1792139292116!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+    </section>
+
+    <section class="contact section-pad" id="contact" aria-labelledby="contact-title">
+      <div class="section-label reveal"><span>07</span> CONTACT &amp; ENQUIRIES</div>
+      <div class="school-team-heading reveal"><p class="eyebrow">People here to help</p><h2>Meet our <em>school team.</em></h2><p>Call the right person for school leadership, coordination or transport enquiries.</p></div>
+      <div class="school-team-grid" aria-label="School leadership and contacts">
+        <article class="staff-card reveal glass-panel" style="--reveal-delay:0ms"><img src="optimized-assets/chairman.webp" alt="Dhanjajay Singh, Chairman of R.R.S International School" loading="lazy" decoding="async" width="700" height="934"><div class="staff-card-copy"><span class="staff-role">Chairman</span><h3>Dhanjajay Singh</h3><a class="staff-call-link" href="tel:+919123470121" aria-label="Call Dhanjajay Singh at +91 91234 70121"><span aria-hidden="true">☎</span> Call +91 91234 70121</a></div></article>
+        <article class="staff-card reveal glass-panel" style="--reveal-delay:70ms"><img src="optimized-assets/principal.webp" alt="V. P Aanand Sir, Principal of R.R.S International School" loading="lazy" decoding="async" width="760" height="760"><div class="staff-card-copy"><span class="staff-role">Principal</span><h3>V. P Aanand Sir</h3><a class="staff-call-link" href="tel:+916202128821" aria-label="Call V. P Aanand Sir at +91 62021 28821"><span aria-hidden="true">☎</span> Call +91 62021 28821</a></div></article>
+        <article class="staff-card reveal glass-panel" style="--reveal-delay:140ms"><img src="optimized-assets/vice-principal.webp" alt="Chandrabhushan Sir, Vice Principal of R.R.S International School" loading="lazy" decoding="async" width="700" height="933"><div class="staff-card-copy"><span class="staff-role">Vice Principal</span><h3>Chandrabhushan Sir</h3><a class="staff-call-link" href="tel:+917909048221" aria-label="Call Chandrabhushan Sir at +91 79090 48221"><span aria-hidden="true">☎</span> Call +91 79090 48221</a></div></article>
+        <article class="staff-card reveal glass-panel" style="--reveal-delay:210ms"><img src="optimized-assets/coordinator.webp" alt="Sudhanshu Sir, Coordinator of R.R.S International School" loading="lazy" decoding="async" width="760" height="760"><div class="staff-card-copy"><span class="staff-role">Coordinator</span><h3>Sudhanshu Sir</h3><a class="staff-call-link" href="tel:+9191234467551" aria-label="Call Sudhanshu Sir at +91 91234 467551"><span aria-hidden="true">☎</span> Call +91 91234 467551</a></div></article>
+        <article class="staff-card reveal glass-panel" style="--reveal-delay:280ms"><img src="optimized-assets/transport-incharge.webp" alt="Raunak Sir, Transport In-charge of R.R.S International School" loading="lazy" decoding="async" width="600" height="1066"><div class="staff-card-copy"><span class="staff-role">Transport In-charge</span><h3>Raunak Sir</h3><a class="staff-call-link" href="tel:+91766796008" aria-label="Call Raunak Sir at +91 76679 6008"><span aria-hidden="true">☎</span> Call +91 76679 6008</a></div></article>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-copy reveal glass-panel"><p class="eyebrow">We’d love to hear from you</p><h2 id="contact-title">Your questions<br>are <em>welcome.</em></h2><p>Share your details below and the school team can follow up about admissions or general enquiries.</p><dl class="contact-details"><div><dt>Address</dt><dd>R.R.S International School,<br>Bhurwaan More, Kudra, Kaimur</dd></div><div><dt>Contact number</dt><dd><a href="tel:+919123470121">+91 91234 70121</a></dd></div></dl><a class="button button-light call-button" href="tel:+919123470121">Call the School <span aria-hidden="true">☎</span></a></div>
+        <form class="enquiry-form reveal glass-panel" id="enquiry-form" novalidate>
+          <label for="parent-name">Parent / guardian name <span class="required-indicator" aria-hidden="true">*</span></label>
+<input
+id="parent-name"
+name="parentName"
+type="text"
+autocomplete="name"
+required
+minlength="2"
+maxlength="100"
+placeholder="Parent or guardian's full name"
+
+>
+
+          <p class="form-intro">A few details to guide your enquiry</p>
+          <label for="student-name">Student name <span class="required-indicator" aria-hidden="true">*</span></label><input id="student-name" name="studentName" autocomplete="name" required minlength="2" placeholder="Student’s full name">
+          <label for="mobile-number">Parent / guardian mobile number <span class="required-indicator" aria-hidden="true">*</span></label><input id="mobile-number" name="mobile" type="tel" inputmode="tel" autocomplete="tel" required maxlength="14" pattern="(?:\+91[ -]?)?[6-9][0-9]{9}" title="Enter a 10-digit Indian mobile number, optionally starting with +91." placeholder="10-digit mobile number">
+          <label for="parent-email">Email address <span class="required-indicator" aria-hidden="true">*</span></label><input id="parent-email" name="email" type="email" autocomplete="email" required placeholder="you@example.com">
+          <label for="student-stage">Class of interest <span class="required-indicator" aria-hidden="true">*</span></label><select id="student-stage" name="stage" required><option value="">Choose a class</option><option value="nursery">Nursery</option><option value="lkg">LKG</option><option value="ukg">UKG</option><option value="class-1">Class 1</option><option value="class-2">Class 2</option><option value="class-3">Class 3</option><option value="class-4">Class 4</option><option value="class-5">Class 5</option><option value="class-6">Class 6</option><option value="class-7">Class 7</option><option value="class-8">Class 8</option><option value="class-9">Class 9</option><option value="class-10">Class 10</option><option value="general">General enquiry</option></select>
+          <label for="enquiry-message">How can we help? <span class="required-indicator" aria-hidden="true">*</span></label><textarea id="enquiry-message" name="message" rows="3" required minlength="10" placeholder="Tell us a little about your enquiry"></textarea>
+          <label class="consent-row" for="privacy-consent"><input id="privacy-consent" type="checkbox" required><span>I agree to the <a href="#terms">Terms</a> and have read the <a href="#privacy">Privacy Policy</a>. I consent to the school using these details to respond to my enquiry.</span></label>
+          <button class="button button-dark form-submit" type="submit">Send enquiry <span aria-hidden="true">↗</span></button>
+          <div class="form-status" id="form-status" role="status" aria-live="polite" aria-atomic="true"><span class="state-symbol" aria-hidden="true"><svg class="state-svg" viewBox="0 0 40 40"><circle class="crest-orbit" cx="20" cy="20" r="14"/><path class="crest-line" d="M13 25 20 11l7 14m-11-6h8m-11 9h14"/></svg></span><span class="state-copy">Submitting sends your details to the school. This page cannot confirm that the spreadsheet recorded them; call the school if you need confirmation.</span><span class="form-state-actions" hidden></span></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <section class="privacy section-pad" id="privacy" aria-labelledby="privacy-title">
+    <div class="section-label reveal"><span>08</span> YOUR INFORMATION</div>
+    <div class="privacy-heading reveal"><p class="eyebrow">Clear and simple</p><h2 id="privacy-title">Privacy &amp; <em>terms.</em></h2><p>These notes explain what this enquiry form does with the information you choose to provide.</p></div>
+    <div class="privacy-grid">
+      <article class="privacy-card reveal glass-panel" id="terms"><h3>Terms of enquiry</h3><p>Submitting the form asks R.R.S International School to contact you about your enquiry. It does not confirm admission, a place, or any school service. Please provide accurate contact details and avoid sharing sensitive documents in the message.</p><p>You can contact the school directly at <a href="tel:+919123470121">+91 91234 70121</a> if you need to update or discuss an enquiry.</p></article>
+      <article class="privacy-card reveal glass-panel"><h3>Privacy policy</h3><p>The form collects the student name, parent or guardian mobile number, email address, class of interest, and your message. On submission, these details are sent to the school’s configured Google Apps Script and spreadsheet so the school can review and respond.</p><p>This page cannot verify spreadsheet access, retention, or deletion. Contact the school to ask about an enquiry record or request an update.</p></article>
+      <article class="privacy-card reveal glass-panel"><h3>Cookies &amp; data</h3><p>The site uses one first-party cookie only to remember your cookie-preference choice. It does not use advertising or analytics cookies. Google Maps and Pexels video previews are external services governed by their own privacy practices.</p><p>The website does not store enquiry details in cookies or browser storage. Details are sent only when you select Send enquiry. The video previews load only after you press Play.</p></article>
+    </div>
+  </section>
+
+  <footer class="site-footer"><div class="footer-top"><a class="brand footer-brand" href="#top"><img src="optimized-assets/logo.png" alt="" width="46" height="46" loading="lazy" decoding="async"><span>R.R.S <small>INTERNATIONAL SCHOOL</small></span></a><p>Learning begins with belonging.</p><a href="#top" class="back-top">Back to top ↑</a></div><div class="footer-links" aria-label="Useful links"><a href="#about">Our school</a><a href="#learning">Academics</a><a href="#school-moments">Campus</a><a href="#life">Gallery</a><a href="#faq">FAQs</a><a href="#location">Location</a><a href="#contact">Enquiry</a><a href="#privacy">Privacy &amp; Terms</a></div><div class="footer-contact"><span>R.R.S International School, Bhurwaan More, Kudra, Kaimur</span><a href="tel:+919123470121">+91 91234 70121</a></div><div class="footer-bottom"><span>© <span id="year">2026</span> R.R.S International School</span><span>From Nursery to Class 10</span><span>Made for curious minds.</span><span class="site-credit">Developed and built by Aditya Tiwari</span></div></footer>
+
+  <aside class="cookie-notice" id="cookie-notice" aria-label="Cookie preference" hidden><div><strong>Your privacy choices</strong><p>We use an essential cookie to remember this preference. <a href="#privacy">Privacy details</a></p></div><button class="button button-dark cookie-accept" id="cookie-accept" type="button">Use essential cookie</button><button class="cookie-dismiss" id="cookie-dismiss" type="button">Continue without saving</button></aside>
+
+  <dialog class="lightbox" id="lightbox" aria-label="School photo viewer"><button class="lightbox-close" type="button" aria-label="Close photo viewer">×</button><button class="lightbox-prev" type="button" aria-label="Previous photo">←</button><figure><img src="" alt=""><figcaption></figcaption></figure><button class="lightbox-next" type="button" aria-label="Next photo">→</button><p class="lightbox-count" aria-live="polite"></p></dialog>
+
+</body>
+</html>
+
+
+
+
+
